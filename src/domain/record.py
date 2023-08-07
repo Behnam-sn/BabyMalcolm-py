@@ -3,7 +3,7 @@ import datetime
 
 
 @dataclass
-class Item:
+class Record:
     id: int
     date: str
     day_in_week: str
